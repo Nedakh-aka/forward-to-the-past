@@ -1,0 +1,15 @@
+# Environnement Python
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.env
+
+# Données
+data/raw/*
+data/interim/*
+data/processed/*
+
+# Conserver les dossiers vides
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
