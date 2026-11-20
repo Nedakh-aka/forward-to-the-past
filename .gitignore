@@ -6,8 +6,6 @@ __pycache__/
 
 # Données
 data/raw/*
-data/interim/*
-data/processed/*
 
 # Conserver les dossiers vides
 !data/raw/.gitkeep
