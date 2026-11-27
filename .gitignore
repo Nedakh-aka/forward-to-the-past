@@ -4,10 +4,18 @@ __pycache__/
 .ipynb_checkpoints/
 .env
 
-# Données
+# Données brutes
 data/raw/*
-
-# Conserver les dossiers vides
 !data/raw/.gitkeep
+
+# Données intermédiaires
+data/interim/*
 !data/interim/.gitkeep
+
+# Données traitées
+data/processed/*
 !data/processed/.gitkeep
+!data/processed/dataset_catalogue_filtres.csv
+
+# Logs d'exécution
+*.log
